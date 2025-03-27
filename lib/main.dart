@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       title: 'Planora',
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
       theme: _buildLightTheme(),
       darkTheme: _buildDarkTheme(),
       home: const HomeScreen(),
